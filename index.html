@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <title>Nature's Platter</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/611a2a5d37.js" crossorigin="anonymous"></script>
+    <style>
+        .sora{
+            font-family: "Sora", serif;
+            }
+    </style>
 </head>
-<body>
-    <header>
+<body class="sora">
+    <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
         <nav class="lg:mx-[10%]">
             <div class="navbar">
                 <a class="hidden lg:flex navbar-start"><img src="c2-assets/logo-header.png" alt="header_logo"></a>
-                <div class="lg:hidden">
-                  <a class=""><img src="c2-assets/Group.png" alt="header_logo"></a>
-                  <div class="dropdown">
+                <div class="lg:hidden"> <!--mobile device part-->
+                  <a class=""><img src="c2-assets/Group.png" alt="header_logo" class=""></a>
+                  <div class="dropdown"> <!--dropdown menu-->
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -62,6 +70,12 @@
                 </div>
               </div>
         </nav>
+
+        <section class="text-center mx-[10%]">
+            <h1 class="text-[2rem] lg:text-[3.5rem] font-semibold">Freshness <span class="text-[#179800]">You Can Count</span> On, Prices You’ll Love!</h1>
+            <p class="text-[1rem] lg:text-[1.25rem]">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+            <img src="c2-assets/hero-vegetables.png" alt="vegetables" class="mx-auto">
+        </section>
     </header>
 </body>
 </html>
