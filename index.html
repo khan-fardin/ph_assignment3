@@ -18,12 +18,11 @@
 </head>
 <body class="sora m-0">
     <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
-        <nav class="lg:mx-[10%]">
+        <nav class="lg:mx-[10%]"><!--nav bar-->
             <div class="navbar">
                 <a class="hidden lg:flex navbar-start cursor-pointer"><img src="c2-assets/logo-header.png" alt="header_logo"></a>
                 <div class="lg:hidden"> <!--mobile device part-->
-                  <a class="cursor-pointer"><img src="c2-assets/Group.png" alt="header_logo" class=""></a>
-                  <div class="dropdown"> <!--dropdown menu-->
+                  <div class="dropdown mr-[280px]"> <!--dropdown menu-->
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -54,6 +53,7 @@
                       </div>
                     </ul>
                   </div>
+                  <a class="cursor-pointer"><img src="c2-assets/Group.png" alt="header_logo" class="ml-auto"></a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 text-black">
@@ -66,7 +66,7 @@
                     <i class="fa-solid fa-magnifying-glass cursor-pointer hover:text-[#179800]"></i>
                     <i class="fa-solid fa-cart-shopping cursor-pointer hover:text-[#179800]"></i>
                     <a class="btn bg-transparent border-[#179800] w-[100px] h-[45px]">Login</a>
-                  <a class="btn bg-[#179800] text-white w-[100px] h-[45px]">Register</a>
+                    <a class="btn bg-[#179800] text-white w-[100px] h-[45px] animate-pulse">Register</a>
                 </div>
               </div>
               <div class="lg:hidden border-[1px] border-black"></div>
@@ -86,38 +86,38 @@
         <div class="lg:flex items-center justify-between gap-4">
           <div class="bg-[#EFEBE3] text-center w-[320px] lg:w-[350px] rounded-[16px] p-[25px] lg:p-[35px] mx-auto max-lg:mb-5">
             <div class="bg-white rounded-[50%] w-[100px] h-[100px] lg:w-[130px] lg:h-[130px] mx-auto flex items-center justify-center">
-              <img src="c2-assets/service.png" alt="24/7" class="">
+              <img src="c2-assets/service.png" alt="24/7" class="max-lg:w-[80px]">
             </div>
             <h3 class="text-[1.25rem] lg:text-[1.5rem] font-semibold my-4">24/7 Services</h3>
             <p class="text-[1rem] lg:text-[1.25rem] font-light">We can give service 24/7 by our very intelligent and active staff.</p>
           </div>
           <div class="bg-[#EFEBE3] text-center w-[320px] lg:w-[350px] rounded-[16px] p-[25px] lg:p-[35px] mx-auto max-lg:mb-5">
             <div class="bg-white rounded-[50%] w-[100px] h-[100px] lg:w-[130px] lg:h-[130px] mx-auto flex items-center justify-center">
-              <img src="c2-assets/delivery.png" alt="delivery truck" class="">
+              <img src="c2-assets/delivery.png" alt="delivery truck" class="max-lg:w-[80px]">
             </div>
             <h3 class="text-[1.25rem] lg:text-[1.5rem] font-semibold my-4">Fast Delivery</h3>
             <p class="text-[1rem] lg:text-[1.25rem] font-light">We can give fast delivery by our very intelligent and active staff.</p>
           </div>
           <div class="bg-[#EFEBE3] text-center w-[320px] lg:w-[350px] rounded-[16px] p-[25px] lg:p-[35px] mx-auto">
             <div class="bg-white rounded-[50%] w-[100px] h-[100px] lg:w-[130px] lg:h-[130px] mx-auto flex items-center justify-center">
-              <img src="c2-assets/healthy.png" alt="100% natural" class="">
+              <img src="c2-assets/healthy.png" alt="100% natural" class="max-lg:w-[80px]">
             </div>
             <h3 class="text-[1.25rem] lg:text-[1.5rem] font-semibold my-4">Healthy Production</h3>
             <p class="text-[1rem] lg:text-[1.25rem] font-light">We can give healthy product by our very intelligent and active staff.</p>
           </div>
         </div>
       </section>
-      <section class="bg-[#EFEBE3]"><!--products section--><!--*****work needed****warning-->
+      <section class="bg-[#EFEBE3]"><!--products section-->
         <div class="md:mx-[10%] py-[140px]">
           <h3 class="text-[2.25rem] font-semibold text-[#179800] mb-5 max-lg:text-center">Popular Products</h3>
-          <div class="grid grid-cols-2 lg:grid-cols-5 gap-[10px]">
-            <div class="w-[350px] max-lg:h-[350px] mx-auto col-span-2 row-span-3 gap-0 bg-gradient-to-br from-[#53DB3A] to-[#FFFFFF] relative rounded-[10px] pl-[30px] lg:w-[400px]">
+          <div class="grid grid-cols-2 lg:grid-cols-5 gap-[10px] max-lg:mx-[5%]">
+            <div class="w-[350px] max-lg:h-[350px] mx-auto col-span-2 row-span-3 gap-0 bg-gradient-to-br from-[#53DB3A] to-[#FFFFFF] relative rounded-[10px] pl-[30px] lg:min-w-[420px]">
               <h1 class="text-[1.5rem] lg:text-[2rem] text-white font-semibold mt-[40px] lg:mt-[50px]">30% off</h1>
               <p class="my-2 w-[200px] lg:w-[300px]">Discover a world of treats, toys, and essentials handpicked for</p>
               <button class="btn w-[100px]">Buy Now</button>
               <img src="c2-assets/vegetable-offer.png" alt="banana & veg" class="absolute bottom-0 right-0 max-lg:w-[230px]">
             </div>
-            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-4 w-[180px] lg:w-[250px]">
+            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-2 w-[180px] lg:w-[210px]">
               <img src="c2-assets/image 43.png" alt="onion" class="bg-[#EFEBE3] rounded-[10px] p-1 lg:p-2">
               <div class="">
                 <p class="text-[10px] lg:text-[1rem]"><i class="fa-solid fa-star text-[#FFC107]"></i>4.5</p>
@@ -125,7 +125,7 @@
                 <p class="text-[10px] lg:text-[1rem]">$39.99</p>
               </div>
             </div>
-            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-4 w-[180px] lg:w-[250px]">
+            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-4 w-[180px] lg:w-[210px]">
               <img src="c2-assets/image 41.png" alt="onion" class="bg-[#EFEBE3] rounded-[10px] p-1 lg:p-2">
               <div class="">
                 <p class="text-[10px] lg:text-[1rem]"><i class="fa-solid fa-star text-[#FFC107]"></i>4.5</p>
@@ -133,7 +133,7 @@
                 <p class="text-[10px] lg:text-[1rem]">$39.99</p>
               </div>
             </div>
-            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-4 w-[180px] lg:w-[250px]">
+            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-4 w-[180px] lg:w-[210px]">
               <img src="c2-assets/image 44.png" alt="onion" class="bg-[#EFEBE3] rounded-[10px] p-1 lg:p-2">
               <div class="">
                 <p class="text-[10px] lg:text-[1rem]"><i class="fa-solid fa-star text-[#FFC107]"></i>4.5</p>
@@ -141,7 +141,7 @@
                 <p class="text-[10px] lg:text-[1rem]">$39.99</p>
               </div>
             </div>
-            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-4 w-[180px] lg:w-[250px]">
+            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-4 w-[180px] lg:w-[210px]">
               <img src="c2-assets/image 41.png" alt="onion" class="bg-[#EFEBE3] rounded-[10px] p-1 lg:p-2">
               <div class="">
                 <p class="text-[10px] lg:text-[1rem]"><i class="fa-solid fa-star text-[#FFC107]"></i>4.5</p>
@@ -149,7 +149,7 @@
                 <p class="text-[10px] lg:text-[1rem]">$39.99</p>
               </div>
             </div>
-            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-4 w-[180px] lg:w-[250px]">
+            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-4 w-[180px] lg:w-[210px]">
               <img src="c2-assets/image 43.png" alt="onion" class="bg-[#EFEBE3] rounded-[10px] p-1 lg:p-2">
               <div class="">
                 <p class="text-[10px] lg:text-[1rem]"><i class="fa-solid fa-star text-[#FFC107]"></i>4.5</p>
@@ -157,7 +157,7 @@
                 <p class="text-[10px] lg:text-[1rem]">$39.99</p>
               </div>
             </div>
-            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-4 w-[180px] lg:w-[250px]">
+            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-4 w-[180px] lg:w-[210px]">
               <img src="c2-assets/image 41.png" alt="onion" class="bg-[#EFEBE3] rounded-[10px] p-1 lg:p-2">
               <div class="">
                 <p class="text-[10px] lg:text-[1rem]"><i class="fa-solid fa-star text-[#FFC107]"></i>4.5</p>
@@ -165,7 +165,7 @@
                 <p class="text-[10px] lg:text-[1rem]">$39.99</p>
               </div>
             </div>
-            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-4 w-[180px] lg:w-[250px]">
+            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-4 w-[180px] lg:w-[210px]">
               <img src="c2-assets/image 43.png" alt="onion" class="bg-[#EFEBE3] rounded-[10px] p-1 lg:p-2">
               <div class="">
                 <p class="text-[10px] lg:text-[1rem]"><i class="fa-solid fa-star text-[#FFC107]"></i>4.5</p>
@@ -173,7 +173,7 @@
                 <p class="text-[10px] lg:text-[1rem]">$39.99</p>
               </div>
             </div>
-            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-4 w-[180px] lg:w-[250px]">
+            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-4 w-[180px] lg:w-[210px]">
               <img src="c2-assets/image 44.png" alt="onion" class="bg-[#EFEBE3] rounded-[10px] p-1 lg:p-2">
               <div class="">
                 <p class="text-[10px] lg:text-[1rem]"><i class="fa-solid fa-star text-[#FFC107]"></i>4.5</p>
@@ -181,7 +181,7 @@
                 <p class="text-[10px] lg:text-[1rem]">$39.99</p>
               </div>
             </div>
-            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-4 w-[150px] lg:w-[250px] max-lg:hidden">
+            <div class="flex items-center justify-center bg-white p-2 lg:p-4 rounded-[10px] gap-4 w-[150px] lg:w-[210px] max-lg:hidden">
               <img src="c2-assets/image 44.png" alt="onion" class="bg-[#EFEBE3] rounded-[10px] p-1 lg:p-2">
               <div class="">
                 <p class="text-[10px] lg:text-[1rem]"><i class="fa-solid fa-star text-[#FFC107]"></i>4.5</p>
@@ -193,22 +193,22 @@
         </div>
       </section>
 
-      <section class="mx-[2%] lg:mx-[10%] my-[120px]"> <!--offers--><!--*****work needed****warning-->
+      <section class="mx-[2%] lg:mx-[10%] my-[120px]"> <!--offers-->
         <h1 class="text-[2.25rem] font-semibold text-[#179800] max-lg:text-center mb-4">Arrival & Offers</h1>
         <div class="lg:flex items-center justify-center gap-4">
-          <div class="bg-[#115414] flex items-center justify-center w-fit rounded-[10px] lg:rounded-[24px] p-[10px] lg:p-[20px] max-lg:mx-auto max-lg:mb-4">
+          <div class="bg-[#115414] flex items-center justify-center w-fit rounded-[10px] lg:h-[420px] lg:rounded-[24px] p-[10px] lg:p-[20px] max-lg:mx-auto max-lg:mb-4 lg:pr-0">
             <div class="">
               <img src="c2-assets/dawat-logo.png" alt="daawat" class="mb-2 lg:mb-4">
-              <h3 class="bg-[#63B76D] py-[8px] lg:py-[15px] px-[5px] lg:px-[40px] text-[0.875rem] lg:text-[1.5rem] text-white w-fit rounded-[13px] mb-4">Cook Exotic Dishes</h3>
-              <h3 class="text-white text-[1.25rem] lg:text-[2.5rem]">UP to <span class="font-bold animate-bounce">20% OFF</span></h3>
+              <h3 class="bg-[#63B76D] py-[8px] lg:py-[8px] px-[5px] lg:px-[10px] text-[0.875rem] lg:text-[1.3rem] text-white rounded-[13px] mb-4">Cook Exotic Dishes</h3>
+              <h3 class="text-white text-[1.25rem] lg:text-[2rem] animate-bounce">UP to <span class="font-bold">20% OFF</span></h3>
             </div>
-            <img src="c2-assets/dawat-mock-up.png" alt="dawaat rice" class="max-lg:w-[180px]">
+            <img src="c2-assets/dawat-mock-up.png" alt="dawaat rice" class="max-lg:w-[180px] lg:mr-[-30px]">
           </div>
-          <div class="bg-[#102861] flex items-center justify-center max-lg:max-w-[450px] max-lg:w-auto w-fit rounded-[10px] lg:rounded-[24px] p-[5px] lg:p-[20px] max-lg:mx-auto">
+          <div class="bg-[#102861] flex items-center justify-evenly max-lg:max-w-[450px] max-lg:w-auto w-fit lg:h-[420px] rounded-[10px] lg:rounded-[24px] p-[5px] lg:p-[20px] max-lg:mx-auto">
             <div class="">
               <img src="c2-assets/india-gate-logo.png" alt="india gate" class="mb-1 lg:mb-4">
-              <h3 class="bg-[#2A4D97] py-[8px] lg:py-[15px] px-[5px] lg:px-[40px] text-[0.875rem] lg:text-[1.5rem] text-white w-fit rounded-[13px] mb-1 lg:mb-4">World’s No.1 Rice</h3>
-              <h3 class="text-white text-[1.25rem] lg:text-[2.5rem]">UP to <span class="font-bold animate-bounce">40% OFF</span></h3>
+              <h3 class="bg-[#2A4D97] py-[8px] lg:py-[15px] px-[5px] lg:px-[10px] text-[0.875rem] lg:text-[1.4rem] text-white w-fit rounded-[13px] mb-1 lg:mb-4">World’s No.1 Rice</h3>
+              <h3 class="text-white text-[1.25rem] lg:text-[2rem] animate-bounce">UP to <span class="font-bold animate-bounce">40% OFF</span></h3>
             </div>
             <img src="c2-assets/india-gate-mock-up.png" alt="india gate rice" class="max-lg:w-[120px]">
           </div>
@@ -216,17 +216,17 @@
       </section>
     </main>
 
-    <footer class="bg-[#179800]">
-      <section class="bg-[#EFEBE3] m-[10%] rounded-[24px] lg:flex items-center justify-center lg:p-[50px] -mb-12">
+    <footer class="bg-[#179800] mt-[400px] lg:mt-[300px]">
+      <section class="bg-[#EFEBE3] mx-auto rounded-[24px] lg:flex items-center justify-center p-[20px] lg:p-[50px] max-w-[80%] lg:w-fit relative top-[-300px] lg:top-[-230px] mb-0">
         <img src="c2-assets/vegetable-busket.png" alt="vegetable busket" class="mx-auto">
         <div class="max-lg:text-center">
           <h2 class="text-[2.25rem] font-semibold text-black">Get Grocery News!</h2><br>
           <p class="text-[1.25rem] text-black">Exclusive training tips, ticks, product deals and more.</p><br>
-          <input type="email" placeholder="Email..." class="p-5 w-full"><br><br>
+          <input type="email" placeholder="Email..." class="p-5 w-full rounded-xl"><br><br>
           <button class="btn bg-[#179800] text-white w-[150px]">Subscribe</button>
         </div>
       </section>
-      <section class="mx-[10%] py-[140px]">
+      <section class="mx-[10%] pb-[140px] mt-[-200px] lg:mt-[-100px]">
         <footer class="footer text-base-content">
           <nav>
             <a class="link link-hover"><img src="c2-assets/logo-footer.png" alt="natures platter"></a>
